@@ -6,6 +6,7 @@ const CursorWave = () => {
 
   useEffect(() => {
     const updateCursorPosition = (e: MouseEvent) => {
+      if (window.innerWidth < 1024) return setPosition({ x: e.clientX, y: e.clientY })
       setPosition({ x: e.clientX, y: e.clientY + window.scrollY })
     }
 
