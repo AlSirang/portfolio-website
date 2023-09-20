@@ -39,9 +39,18 @@ export const Header = () => {
           <Link href='/'>Bashir Uddin</Link>
         </h1>
         <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>
-          Full-Stack JavaScript Engineer
+          JavaScript & Solidity Engineer
         </h2>
-        <p className='(max-w-xs leading-normal text-slate-500'>(React.js | Next.js | Node.js | Mongodb)</p>
+        <div className='mt-2'>
+          <h3>Languages</h3>
+          <p className='(max-w-xs leading-normal text-slate-500'>JavaScript | Typescript | Solidity</p>
+        </div>
+
+        <div className='mt-2'>
+          <h3>Frameworks</h3>
+          <p className='(max-w-xs leading-normal text-slate-500'>React.js | Next.js | Node.js | MongoDB</p>
+        </div>
+
         <nav className='nav hidden lg:block' aria-label='In-page jump links'>
           <ul className='mt-16 w-max'>
             <li>
