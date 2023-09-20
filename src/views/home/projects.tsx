@@ -1,31 +1,31 @@
 import { Section, SectionHead } from '@/components/home-sections'
-import { JobHistory } from '@/components/job-history'
-import { jobHistory } from '@/data/job-history'
+import { ProjectCard } from '@/components/project-card'
+import { projects } from '@/data/projects'
 
-export const Experiences = () => {
+export const Projects = () => {
   return (
-    <Section id='experience' aria-label='Work experience'>
+    <Section id='projects' aria-label='Selected projects'>
       <SectionHead>
-        <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>Experience</h2>
+        <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>Projects</h2>
       </SectionHead>
       <div>
-        <ol className='group/list'>
-          {jobHistory.map((history, index) => (
+        <ul className='group/list'>
+          {projects.map((project, index) => (
             <li className='mb-12' key={index}>
-              <JobHistory {...history} />
+              <ProjectCard {...project} />
             </li>
           ))}
-        </ol>
+        </ul>
         <div className='mt-12'>
           <a
             className='inline-flex items-center leading-tight font-semibold text-slate-200 group'
-            aria-label='View Full Résumé'
-            href='/resume.pdf'
+            aria-label='View Full Project Archive'
+            href='/projects'
           >
             <span>
-              <span className='border-b border-transparent pb-px'>View&nbsp;</span>
+              <span className='border-b border-transparent pb-px'>View Full Project </span>
               <span className='whitespace-nowrap'>
-                <span className='border-b border-transparent pb-px'>Résumé</span>
+                <span className='border-b border-transparent pb-px'>Archive</span>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 20 20'
