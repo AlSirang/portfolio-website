@@ -22,7 +22,7 @@ export const projects = [
     name: 'NFT SWAP',
     imgSrc: '/images/nft-swap.png',
     description:
-      'Created for the Alchemy University ETH Dev Bootcamp, this project introduces a user-friendly NFT swap platform, addressing trust concerns and inefficiencies in the NFT swapping process. It allows for secure and efficient exchanges of digital assets, including optional ETH incentives.',
+      'Created for the Alchemy University Ethereum Developer Bootcamp, this project introduces a user-friendly NFT swap platform, addressing trust concerns and inefficiencies in the NFT swapping process. It allows for secure and efficient exchanges of digital assets, including optional ETH incentives.',
 
     tools: ['Typescript', 'Next.js', 'Rainbowkit', 'Wagmi', 'Solidity', 'Hardhat', 'Git']
   },
