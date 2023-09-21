@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 .active .nav-indicator {
   width: 4rem;
   --tw-bg-opacity: 1;
