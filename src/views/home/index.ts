@@ -1,3 +1,4 @@
-export * from './about'
-export * from './experiences'
-export * from './projects'
+export * from './About'
+export * from './Experiences'
+export * from './Projects'
+export * from './Reviews'

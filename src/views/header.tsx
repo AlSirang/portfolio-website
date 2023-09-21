@@ -68,6 +68,11 @@ export const Header = () => {
                 Projects
               </NavLink>
             </li>
+            <li>
+              <NavLink href='#reviews' active={activeSection == 'reviews'}>
+                Reviews
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>
