@@ -18,7 +18,6 @@ export const ProjectCard = ({ href, name, description, imgSrc, tools }: IProps) 
             href={href}
             target='_blank'
             rel='noreferrer'
-            aria-label='Spotify Profile'
           >
             <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block' />
             <span>

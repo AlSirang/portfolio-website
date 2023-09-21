@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Section, SectionHead } from '@/components/home-sections'
 import { ProjectCard } from '@/components/project-card'
 import { projects } from '@/data/projects'
@@ -17,7 +18,7 @@ export const Projects = () => {
           ))}
         </ul>
         <div className='mt-12'>
-          <a
+          <Link
             className='inline-flex items-center leading-tight font-semibold text-slate-200 group'
             aria-label='View Full Project Archive'
             href='/projects'
@@ -41,7 +42,7 @@ export const Projects = () => {
                 </svg>
               </span>
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </Section>
