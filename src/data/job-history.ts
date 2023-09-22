@@ -16,7 +16,7 @@ export const jobHistory = [
       'MongoDB',
       'Redux toolkit',
       'Tailwind CSS',
-      'ethers.js',
+      'Ethers.js',
       'Git',
       'Hardhat'
     ]
@@ -30,11 +30,13 @@ export const jobHistory = [
       'Applying critical thinking to deconstruct challenges, assess solutions, and make informed decisions was a regular practice. I played a key role in enhancing team communication by preparing comprehensive information for meetings. Constantly acquiring and applying new skills to daily tasks significantly boosted efficiency and productivity. Proficiently managing tight deadlines and a fast-paced environment demonstrated my ability to thrive under pressure.',
     tools: [
       'JavaScript',
+      'TypeScript',
       'Solidity',
       'React.js',
+      'Next.js',
       'Node.js',
       'MongoDB',
-      'Redux toolkit',
+      'Ethers.js',
       'Tailwind CSS',
       'Git',
       'Hardhat'
@@ -56,7 +58,7 @@ export const jobHistory = [
       'MongoDB',
       'Redux toolkit',
       'Material UI',
-      'ethers.js',
+      'Ethers.js',
       'Git',
       'Hardhat'
     ]
