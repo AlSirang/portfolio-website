@@ -41,7 +41,7 @@ export const jobHistory = [
     ]
   },
   {
-    duration: 'Mar — Dec 2021',
+    duration: 'Mar 2021 — Dec 2022',
     title: null,
     role: 'Javascript (React.js, Node.js) | Solidity Developer',
     company: 'Webloop',
