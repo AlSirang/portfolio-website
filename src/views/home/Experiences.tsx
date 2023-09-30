@@ -20,7 +20,9 @@ export const Experiences = () => {
           <a
             className='inline-flex items-center leading-tight font-semibold text-slate-200 group'
             aria-label='View Full Résumé'
+            target='_blank'
             href='/resume.pdf'
+            rel='noreferrer'
           >
             <span>
               <span className='border-b border-transparent pb-px'>View&nbsp;</span>
