@@ -5,7 +5,7 @@ export const jobHistory = [
     role: 'JavaScript (React.js, Next.js) & Solidity Developer',
     company: 'E-shepherds Technologies',
     description:
-      'As CEO and JavaScript developer, I oversee both the management and development of websites, including decentralized platforms. My role involves strategic leadership and hands-on coding to ensure effective web solutions for our projects.',
+      'As CEO and JavaScript developer, I oversee the management and development of websites, including decentralized platforms. My role involves strategic leadership and hands-on coding to ensure the effective implementation of web solutions for projects.',
     tools: [
       'JavaScript',
       'TypeScript',
@@ -27,7 +27,7 @@ export const jobHistory = [
     role: 'Javascript (React.js, Node.js) | Solidity Developer',
     company: 'Freelance',
     description:
-      'Applying critical thinking to deconstruct challenges, assess solutions, and make informed decisions was a regular practice. I played a key role in enhancing team communication by preparing comprehensive information for meetings. Constantly acquiring and applying new skills to daily tasks significantly boosted efficiency and productivity. Proficiently managing tight deadlines and a fast-paced environment demonstrated my ability to thrive under pressure.',
+      'Applying critical thinking to analyze challenges and assess solutions, I make informed decisions. Constantly acquiring and applying new skills to my daily tasks significantly boosts efficiency and productivity. Proficiently managing tight deadlines and a fast-paced environment has demonstrated my ability to thrive under pressure.',
     tools: [
       'JavaScript',
       'TypeScript',
@@ -48,7 +48,7 @@ export const jobHistory = [
     role: 'Javascript (React.js, Node.js) | Solidity Developer',
     company: 'Webloop',
     description:
-      'Planned and executed website and decentralized app development, converting mockups into usable web presence using React/Next JavaScript frameworks. Smart Contracts were seamlessly developed and integrated into React/Next.js decentralized apps. Client engagement was a priority for planning and optimizing site issues and queries. Additionally, new mobile-friendly websites were built and styled, facilitating the transition of legacy presentations into easy-to-use, modern versions.',
+      'Planned and executed application and decentralized app development, transforming mockups into functional interfaces using React/Next JavaScript frameworks. Seamlessly developed and integrated Smart Contracts into React/Next.js decentralized apps. Prioritized client engagement to plan and optimize app issues and inquiries. Additionally, designed and developed new mobile-friendly interfaces, simplifying the transformation of legacy applications into user-friendly, modern formats.',
     tools: [
       'JavaScript',
       'TypeScript',
