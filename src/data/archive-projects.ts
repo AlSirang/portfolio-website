@@ -204,5 +204,14 @@ export const archiveProjects: TArchiveProjects[] = [
       display: 'wanderlust (github pages)',
       url: 'https://alsirang.github.io/wanderlust'
     }
+  },
+  {
+    year: 2020,
+    title: 'IP Tracker',
+    tools: ['JavaScript', 'CSS', 'HTML', 'googlemaps', 'leaflet'],
+    website: {
+      display: 'tracker-ip (vercel.app)',
+      url: 'https://tracker-ip.vercel.app'
+    }
   }
 ]
