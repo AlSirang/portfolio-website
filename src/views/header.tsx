@@ -39,7 +39,7 @@ export const Header = () => {
           <Link href='/'>Bashir Uddin</Link>
         </h1>
         <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>
-          JavaScript & Solidity Engineer
+          JavaScript | Typescript & Solidity Engineer
         </h2>
         <div className='mt-2'>
           <h3>Languages</h3>
