@@ -1,14 +1,16 @@
 import classnames from 'classnames'
+import Link from 'next/link'
 
-interface IProps {
+type NavLinkProps = {
   children: React.ReactNode
   href: string
   active: boolean
 }
 
-export const NavLink = ({ children, active, href }: IProps) => {
+export const NavLink = (props: NavLinkProps) => {
+  const { children, active, href } = props
   return (
-    <a
+    <Link
       className={classnames('group flex items-center py-3', {
         active: active
       })}
@@ -18,6 +20,6 @@ export const NavLink = ({ children, active, href }: IProps) => {
       <span className='nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200'>
         {children}
       </span>
-    </a>
+    </Link>
   )
 }

@@ -1,6 +1,6 @@
 import CursorWave from '@/components/cursor-wave'
 import { Header } from '@/views/header'
-import { About, Experiences, Projects, Reviews } from '@/views/home'
+import { About, Experiences, ProjectsLatest, Reviews } from '@/views/home'
 
 export default function Index() {
   return (
@@ -12,7 +12,7 @@ export default function Index() {
           <main className='pt-24 lg:w-1/2 lg:py-24'>
             <About />
             <Experiences />
-            <Projects />
+            <ProjectsLatest />
             <Reviews />
 
             <h2 className='text-sm'>Made with ❤️ By Bashir</h2>

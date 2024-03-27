@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body
         className={classnames(
-          'bg-background leading-relaxed text-white antialiased selection:bg-teal-300 selection:text-teal-900',
+          'bg-background leading-relaxed text-white antialiased selection:bg-blue-300 selection:text-black',
           inter.className
         )}
       >
