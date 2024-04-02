@@ -41,7 +41,7 @@ export const archiveProjects: TArchiveProjects[] = [
   {
     year: 2023,
     title: 'NFT SWAP',
-    tools: ['Typescript', 'Next.js', 'Rainbowkit', 'Wagmi', 'Solidity', 'Hardhat', 'Git'],
+    tools: ['Typescript', 'Solidity', 'Next.js', 'Rainbowkit', 'Wagmi', 'Ethers.js', 'Hardhat', 'Git'],
     website: {
       display: 'nft-swap-sigma (vercel.app)',
       url: 'https://nft-swap-sigma.vercel.app'
@@ -59,7 +59,7 @@ export const archiveProjects: TArchiveProjects[] = [
   {
     year: 2023,
     title: 'ZOILOS ERC721 Minting Engine',
-    tools: ['JavaScript', 'Typescript', 'Wagmi', 'HTML & CSS', 'Solidity', 'Hardhat', 'Git'],
+    tools: ['JavaScript', 'Typescript', 'Solidity', 'Wagmi', 'HTML & CSS', 'Hardhat', 'Git'],
     website: {
       display: 'drunkrobots.net',
       url: 'https://drunkrobots.net/mintpets'
@@ -68,7 +68,7 @@ export const archiveProjects: TArchiveProjects[] = [
   {
     year: 2023,
     title: 'Escrow DApp',
-    tools: ['JavaScript', 'React.js', 'Ethers.js', 'Solidity', 'Hardhat', 'Git'],
+    tools: ['JavaScript', 'Solidity', 'React.js', 'Ethers.js', 'Hardhat', 'Git'],
     website: {
       display: 'Escrow DApp (github)',
       url: 'https://github.com/AlSirang/escrow-alchemy-university'
@@ -142,7 +142,7 @@ export const archiveProjects: TArchiveProjects[] = [
   {
     year: 2022,
     title: 'Omea App',
-    tools: ['JavaScript', 'React.js', 'Web3.js', 'HTML & CSS', 'Bootstrap', 'Git'],
+    tools: ['JavaScript', 'Solidity', 'React.js', 'Web3.js', 'HTML & CSS', 'Bootstrap', 'Git'],
     website: {
       display: 'omea-app (vercel.app)',
       url: 'https://omea-app.vercel.app'
@@ -152,7 +152,7 @@ export const archiveProjects: TArchiveProjects[] = [
   {
     year: 2022,
     title: 'Vehicles Swap (Blockchain)',
-    tools: ['JavaScript', 'React.js', 'CSS', 'ethers.js', 'Bootstrap', 'Git'],
+    tools: ['JavaScript', 'Solidity', 'React.js', 'CSS', 'Ethers.js', 'Bootstrap', 'Git'],
     website: {
       display: 'vehicles-swap (vercel.app)',
       url: 'https://vehicles-swap.vercel.app'
@@ -161,7 +161,7 @@ export const archiveProjects: TArchiveProjects[] = [
   {
     year: 2022,
     title: 'Drunkrobots  Minting Engine',
-    tools: ['JavaScript', 'Web3.js', 'HTML & CSS', 'Solidity', 'Hardhat', 'Git'],
+    tools: ['JavaScript', 'Solidity', 'Web3.js', 'HTML & CSS', 'Hardhat', 'Git'],
     website: {
       display: 'drunkrobots.net',
       url: 'https://drunkrobots.net'
