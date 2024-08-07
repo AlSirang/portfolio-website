@@ -20,7 +20,19 @@ export const metadata: Metadata = {
       url: 'https://github.com/alsirang'
     }
   ],
-  keywords: ['Bashir', 'alsirang', 'sirang', 'javascript developer', 'javascript', 'solidity', 'web3 developer', 'web3']
+  keywords: [
+    'Bashir',
+    'alsirang',
+    'sirang',
+    'javascript developer',
+    'javascript',
+    'solidity',
+    'web3 developer',
+    'web3'
+  ],
+  verification: {
+    google: 'tUcVEd0RrDlXk7DvpHTO66NlhAw6Ud3XHpdctaoSK3c'
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
