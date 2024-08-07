@@ -7,7 +7,11 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'al sirang (Bashir Uddin)',
+  title: {
+    template: '%s | al sirang (Bashir Uddin)',
+    default: 'Home'
+  },
+
   description:
     'Portfolio website of Bashir Uddin, a Full Stack JavaScript Engineer specializing in Solidity development',
   authors: [

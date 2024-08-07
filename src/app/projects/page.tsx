@@ -2,7 +2,11 @@ import Link from 'next/link'
 import { ArrowRight } from '@/icons'
 import { ProjectsTable } from '@/views/projects'
 import CursorWave from '@/components/cursor-wave'
+import type { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Projects'
+}
 export default function Index() {
   return (
     <div className='group/spotlight relative'>
