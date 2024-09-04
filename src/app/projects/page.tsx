@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ArrowRight } from '@/icons'
-import { ProjectsTable } from '@/views/projects'
+import { AllProjectsTable, BootcampProjects } from '@/views/projects'
 import CursorWave from '@/components/cursor-wave'
 import type { Metadata } from 'next'
 
@@ -17,9 +17,9 @@ export default function Index() {
             <ArrowRight className='mr-1 h-4 w-4 rotate-180 transition-transform group-hover:-translate-x-2' />
             Bashir Uddin
           </Link>
-          <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl'>All Projects</h1>
 
-          <ProjectsTable />
+          <AllProjectsTable />
+          <BootcampProjects />
         </div>
       </div>
     </div>

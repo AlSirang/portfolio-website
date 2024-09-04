@@ -1,6 +1,6 @@
 import { TArchiveProjects } from '@/types/archiveProjects.types'
 
-export const archiveProjects: TArchiveProjects[] = [
+export const archiveFreelanceProjects: TArchiveProjects[] = [
   {
     year: 2024,
     title: 'Tusk Tokens DApp',
@@ -13,15 +13,6 @@ export const archiveProjects: TArchiveProjects[] = [
 
   {
     year: 2024,
-    title: 'Little Lemon React-Native',
-    tools: ['JavaScript', 'React-Native', 'Git'],
-    website: {
-      display: 'Little Lemon (github)',
-      url: 'https://github.com/AlSirang/little-lemon-react-native'
-    }
-  },
-  {
-    year: 2024,
     title: 'Satraps Court',
     tools: ['JavaScript', 'React.js', 'Wagmi.sh', 'Viem.sh', 'Tailwind CSS', 'Git'],
     website: {
@@ -29,24 +20,7 @@ export const archiveProjects: TArchiveProjects[] = [
       url: 'https://beta.satraps.io/'
     }
   },
-  {
-    year: 2023,
-    title: 'Ethernaut Solutions',
-    tools: ['Typescript', 'Solidity', 'Hardhat', 'Chai.js', 'Ethers.js', 'Git'],
-    website: {
-      display: 'Ethernaut Solutions (github)',
-      url: 'https://github.com/AlSirang/ethernaut-solutions'
-    }
-  },
-  {
-    year: 2023,
-    title: 'NFT SWAP',
-    tools: ['Typescript', 'Solidity', 'Next.js', 'Rainbowkit', 'Wagmi', 'Ethers.js', 'Hardhat', 'Git'],
-    website: {
-      display: 'nft-swap-sigma (vercel.app)',
-      url: 'https://nft-swap-sigma.vercel.app'
-    }
-  },
+
   {
     year: 2023,
     title: 'Rambo First Blood DApp',
@@ -65,15 +39,7 @@ export const archiveProjects: TArchiveProjects[] = [
       url: 'https://drunkrobots.net/mintpets'
     }
   },
-  {
-    year: 2023,
-    title: 'Escrow DApp',
-    tools: ['JavaScript', 'Solidity', 'React.js', 'Ethers.js', 'Hardhat', 'Git'],
-    website: {
-      display: 'Escrow DApp (github)',
-      url: 'https://github.com/AlSirang/escrow-alchemy-university'
-    }
-  },
+
   {
     year: 2023,
     title: 'PoolSea Referral',
@@ -86,15 +52,6 @@ export const archiveProjects: TArchiveProjects[] = [
 
   {
     year: 2023,
-    title: 'Etherscan Clone',
-    tools: ['JavaScript', 'Next.js', 'Alchemy SDK', 'Tailwind CSS', 'Headless/UI', 'Git'],
-    website: {
-      display: 'block-explorer (vercel.app)',
-      url: 'https://blockexplorer-eth.vercel.app/'
-    }
-  },
-  {
-    year: 2023,
     title: 'IDO Launchpad Website',
     tools: ['JavaScript', 'React.js', 'Tailwind CSS', 'Headless/UI', 'Git'],
     website: {
@@ -102,24 +59,7 @@ export const archiveProjects: TArchiveProjects[] = [
       url: 'https://web3-dapp-alsirang.vercel.app'
     }
   },
-  {
-    year: 2023,
-    title: 'Merkle Tree Gift List',
-    tools: ['JavaScript', 'Next.js', ' CSS', 'Git'],
-    website: {
-      display: 'merkle-tree-gift-list (vercel.app)',
-      url: 'https://merkle-tree-gift-list-one.vercel.app'
-    }
-  },
-  {
-    year: 2023,
-    title: 'Firebase Auth',
-    tools: ['JavaScript', 'Firebase-sdk', 'Next.js', 'Tailwind CSS', 'Recoil', 'Git'],
-    website: {
-      display: 'firebase-auth (vercel.app)',
-      url: 'https://firebase-eight.vercel.app'
-    }
-  },
+
   {
     year: 2023,
     title: 'The Kimoji',
@@ -130,15 +70,6 @@ export const archiveProjects: TArchiveProjects[] = [
     }
   },
 
-  {
-    year: 2022,
-    title: 'ECDSA-Node',
-    tools: ['JavaScript', 'Next.js', 'CSS', 'Git'],
-    website: {
-      display: 'ecdsa-node (vercel.app)',
-      url: 'https://ecdsa-node-alchemy.vercel.app'
-    }
-  },
   {
     year: 2022,
     title: 'Omea App',
@@ -186,6 +117,82 @@ export const archiveProjects: TArchiveProjects[] = [
       display: 'wefi-d-app (vercel.app)',
       url: 'https://wefi-d-app.vercel.app'
     }
+  }
+]
+
+export const bootcampProjects = [
+  {
+    year: 2024,
+    title: 'Little Lemon React-Native',
+    tools: ['JavaScript', 'React-Native', 'Git'],
+    website: {
+      display: 'Little Lemon (github)',
+      url: 'https://github.com/AlSirang/little-lemon-react-native'
+    }
+  },
+  {
+    year: 2023,
+    title: 'Ethernaut Solutions',
+    tools: ['Typescript', 'Solidity', 'Hardhat', 'Chai.js', 'Ethers.js', 'Git'],
+    website: {
+      display: 'Ethernaut Solutions (github)',
+      url: 'https://github.com/AlSirang/ethernaut-solutions'
+    }
+  },
+  {
+    year: 2023,
+    title: 'NFT SWAP',
+    tools: ['Typescript', 'Solidity', 'Next.js', 'Rainbowkit', 'Wagmi', 'Ethers.js', 'Hardhat', 'Git'],
+    website: {
+      display: 'nft-swap-sigma (vercel.app)',
+      url: 'https://nft-swap-sigma.vercel.app'
+    }
+  },
+  {
+    year: 2023,
+    title: 'Escrow DApp',
+    tools: ['JavaScript', 'Solidity', 'React.js', 'Ethers.js', 'Hardhat', 'Git'],
+    website: {
+      display: 'Escrow DApp (github)',
+      url: 'https://github.com/AlSirang/escrow-alchemy-university'
+    }
+  },
+  {
+    year: 2023,
+    title: 'Etherscan Clone',
+    tools: ['JavaScript', 'Next.js', 'Alchemy SDK', 'Tailwind CSS', 'Headless/UI', 'Git'],
+    website: {
+      display: 'block-explorer (vercel.app)',
+      url: 'https://blockexplorer-eth.vercel.app/'
+    }
+  },
+  {
+    year: 2023,
+    title: 'Merkle Tree Gift List',
+    tools: ['JavaScript', 'Next.js', ' CSS', 'Git'],
+    website: {
+      display: 'merkle-tree-gift-list (vercel.app)',
+      url: 'https://merkle-tree-gift-list-one.vercel.app'
+    }
+  },
+
+  {
+    year: 2023,
+    title: 'Firebase Auth',
+    tools: ['JavaScript', 'Firebase-sdk', 'Next.js', 'Tailwind CSS', 'Recoil', 'Git'],
+    website: {
+      display: 'firebase-auth (vercel.app)',
+      url: 'https://firebase-eight.vercel.app'
+    }
+  },
+  {
+    year: 2022,
+    title: 'ECDSA-Node',
+    tools: ['JavaScript', 'Next.js', 'CSS', 'Git'],
+    website: {
+      display: 'ecdsa-node (vercel.app)',
+      url: 'https://ecdsa-node-alchemy.vercel.app'
+    }
   },
   {
     year: 2021,
@@ -196,6 +203,7 @@ export const archiveProjects: TArchiveProjects[] = [
       url: 'https://city-weather-app.surge.sh'
     }
   },
+
   {
     year: 2020,
     title: 'Wanderlust',
