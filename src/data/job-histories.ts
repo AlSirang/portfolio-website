@@ -1,4 +1,4 @@
-export const jobHistory = [
+export const jobHistories = [
   {
     duration: 'May 2023 — Present',
     role: 'Co-Founder & MERN Developer | Solidity Developer',

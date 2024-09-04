@@ -1,6 +1,6 @@
 import { Section, SectionHead } from '@/components/home-sections'
 import { JobHistory } from '@/components/job-history'
-import { jobHistory } from '@/data/job-history'
+import { jobHistories } from '@/data/job-histories'
 import { ArrowRight } from '@/icons'
 import Link from 'next/link'
 
@@ -12,7 +12,7 @@ export const Experiences = () => {
       </SectionHead>
       <div>
         <ol className='group/list'>
-          {jobHistory.map((history, index) => (
+          {jobHistories.map((history, index) => (
             <li className='mb-12' key={index}>
               <JobHistory {...history} />
             </li>
