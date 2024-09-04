@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { NavLink } from '@/components/nav-link'
-import { SocialLink } from '@/components/social-link'
+import { NavLink } from './nav-link'
+import { SocialLink } from './social-link'
 import Link from 'next/link'
 
 export const Header = () => {
@@ -48,7 +48,7 @@ export const Header = () => {
 
         <div className='mt-2'>
           <h3>Frameworks</h3>
-          <p className='(max-w-xs leading-normal text-slate-500'>React.js | Next.js | Node.js | MongoDB</p>
+          <p className='(max-w-xs leading-normal text-slate-500'>React.js | Next.js | Node.js | Express.js | MongoDB</p>
         </div>
 
         <nav className='nav hidden lg:block' aria-label='In-page jump links'>

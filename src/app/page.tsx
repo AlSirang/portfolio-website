@@ -1,5 +1,5 @@
 import CursorWave from '@/components/cursor-wave'
-import { Header } from '@/views/header'
+import { Header } from '@/components/header'
 import { About, Experiences, ProjectsLatest, Reviews } from '@/views/home'
 
 export default function Index() {
