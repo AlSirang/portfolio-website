@@ -16,7 +16,7 @@ export const archiveFreelanceProjects: TArchiveProjects[] = [
     title: 'Satraps Court',
     tools: ['JavaScript', 'React.js', 'Wagmi.sh', 'Viem.sh', 'Tailwind CSS', 'Git'],
     website: {
-      display: 'Little Lemon (github)',
+      display: 'beta.satraps.io',
       url: 'https://beta.satraps.io/'
     }
   },
