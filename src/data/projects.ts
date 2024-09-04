@@ -1,14 +1,5 @@
 export const projects = [
   {
-    href: 'https://ninfa.io',
-    name: 'NINFA Marketplace',
-    imgSrc: '/images/ninfa.png',
-    description:
-      "Worked on Ninfa.io's prototype project as a lead frontend web3 developer. The role involved implementing reusable React.js components and integrating smart contracts into the website.",
-
-    tools: ['JavaScript', 'React.js', 'Redux toolkit', 'Apollo Client', 'Material UI', 'web3.js', 'Git']
-  },
-  {
     href: 'https://songbird.canary-reborn.xyz/',
     name: 'Canary Reborn',
     imgSrc: '/images/canary-reborn.png',
@@ -25,6 +16,15 @@ export const projects = [
       'As a Full-stack MERN developer, we developed Sanspareil.gg. Sanspareil was made for players who want to improve their gameplay and ranking as efficiently as possible.',
 
     tools: ['JavaScript', 'React.js', 'Node.js', 'Mongodb', 'Redux toolkit', 'Tailwindcss CSS', 'Git']
+  },
+  {
+    href: 'https://ninfa.io',
+    name: 'NINFA Marketplace',
+    imgSrc: '/images/ninfa.png',
+    description:
+      "Worked on Ninfa.io's prototype project as a lead frontend web3 developer. The role involved implementing reusable React.js components and integrating smart contracts into the website.",
+
+    tools: ['JavaScript', 'React.js', 'Redux toolkit', 'Apollo Client', 'Material UI', 'web3.js', 'Git']
   }
 
   // {
