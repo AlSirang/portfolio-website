@@ -123,6 +123,15 @@ export const archiveFreelanceProjects: TArchiveProjects[] = [
 export const bootcampProjects = [
   {
     year: 2024,
+    title: 'Mintlify Clone',
+    tools: ['Typescript', 'TailwindCSS', 'Git'],
+    website: {
+      display: 'mintlify-clone (vercel.app)',
+      url: 'https://mintlify-clone.vercel.app'
+    }
+  },
+  {
+    year: 2024,
     title: 'Little Lemon React-Native',
     tools: ['JavaScript', 'React-Native', 'Git'],
     website: {
