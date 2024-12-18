@@ -96,15 +96,16 @@ export const Header = () => {
       <ul className='ml-1 mt-8 flex items-center' aria-label='Social media'>
         {[
           {
-            name: 'Github',
-            href: 'https://github.com/AlSirang',
-            icon: FaGithub
-          },
-          {
             name: 'Upwork',
             href: 'https://www.upwork.com/freelancers/~0123164bb18bec0df4?mp_source=share',
             icon: FaUpwork
           },
+          {
+            name: 'Github',
+            href: 'https://github.com/AlSirang',
+            icon: FaGithub
+          },
+
           {
             name: 'LinkedIn',
             href: 'https://www.linkedin.com/in/ba-shir',
