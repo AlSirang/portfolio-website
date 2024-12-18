@@ -1,8 +1,9 @@
+import type { Metadata } from 'next'
+
 import Link from 'next/link'
 import { ArrowRight } from '@/icons'
-import { AllProjectsTable, BootcampProjects } from '@/views/projects'
 import CursorWave from '@/components/cursor-wave'
-import type { Metadata } from 'next'
+import { AllProjectsTable, BootcampProjects } from '@/views/archive-projects'
 
 export const metadata: Metadata = {
   title: 'Projects'
