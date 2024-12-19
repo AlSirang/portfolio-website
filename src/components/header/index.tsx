@@ -8,7 +8,7 @@ export const Header = () => {
     <header className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 lg:items-end'>
       <div>
         <div className='h-auto w-auto max-h-[15rem] max-w-[15rem] lg:m-auto'>
-          <Image src='/images/me.webp' height={240} width={240} className='rounded-full' alt='profile' />
+          <Image priority src='/images/me.webp' height={240} width={240} className='rounded-full' alt='profile' />
         </div>
         <Link href='/' className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl mt-3 block'>
           Bashir Uddin
